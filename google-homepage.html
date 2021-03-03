@@ -4,15 +4,17 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Google</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/style.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <!--[if lt IE 7]>
       <p class="browsehappy">
         You are using an <strong>outdated</strong> browser. Please
@@ -20,42 +22,45 @@
       </p>
     <![endif]-->
     <header>
-      <nav>
-        <ul class="nav-left" class="nav">
-          <li>About</li>
-          <li>Store</li>
-        </ul>
-        <ul class="nav-right" class="nav">
-          <li>Gmail</li>
-          <li>Images</li>
-          <li>Sign in</li>
-        </ul>
-      </nav>
+        <nav>
+            <ul class="nav-left" class="nav">
+                <li>About</li>
+                <li>Store</li>
+            </ul>
+            <ul class="nav-right" class="nav">
+                <li>Gmail</li>
+                <li>Images</li>
+                <li id="sign-in">Sign in</li>
+            </ul>
+        </nav>
     </header>
 
-    <img
-      id="logo"
-      src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-    />
+    <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
     <div>
         <input id="search-box">
     </div>
+    <div id="btn">
+        <input type="submit" id="btn1" name="google-search" aria-label="Google Search" value="Google Search"></input>
+        <input type="submit" id="btn2" name="im feeling lucky" aria-label="I'm Feeling Lucky"
+            value="I'm Feeling Lucky"></input>
+    </div>
 
     <footer>
-      <nav>
-        <ul class="nav-left">
-          <li>Advertising</li>
-          <li>Business</li>
-          <li>How Search Works</li>
-        </ul>
-        <ul class="nav-right">
-          <li>Privacy</li>
-          <li>Terms</li>
-          <li>Settings</li>
-        </ul>
-      </nav>
+        <nav>
+            <ul class="nav-left">
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>How Search Works</li>
+            </ul>
+            <ul class="nav-right">
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </nav>
     </footer>
 
     <script src="" async defer></script>
-  </body>
+</body>
+
 </html>

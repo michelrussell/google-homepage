@@ -6,16 +6,24 @@ ul {
 
 li {
   display: inline;
+  margin: auto 10px 10px 10px;
 }
 
 .nav-left {
   float: left;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .nav-right {
   float: right;
-  font-size: 1.5em;
+  font-size: 1.2em;
+}
+
+#sign-in {
+    font-weight: bold;
+    background-color: lightblue;
+    padding: 7.5px;
+    margin-top: auto;
 }
 
 #logo {
@@ -32,6 +40,22 @@ li {
   align-items: center;
   border-radius: 15px;
   width: 484px;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  padding: auto;
+  border-radius: 10px;
+}
+
+#btn1 {
+  margin: 20px;
+  height: 40px;
+}
+
+#btn2 {
+  margin: 20px;
 }
 
 .nav {
